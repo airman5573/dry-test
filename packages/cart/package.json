@@ -1,15 +1,20 @@
 {
-  "name": "cart",
-  "private": true,
+  "name": "@woodry/cart",
   "version": "0.1.0",
   "type": "module",
+  "main": "./dist/cart.umd.js",
+  "module": "./dist/cart.es.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "clean": "rimraf ./node_modules"
+    "clean": "rimraf ./node_modules",
+    "prepare": "yarn build"
   },
   "peerDependencies": {
     "react": "^18.2.0",
