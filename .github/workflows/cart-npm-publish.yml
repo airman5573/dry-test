@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          path: apps/cli
+          node-version: '16.x'
       - uses: actions/setup-node@v2
         with:
           node-version: '16.x'
@@ -29,6 +29,5 @@ jobs:
 
       - name: Publish
         run: npm publish --access public
-
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
