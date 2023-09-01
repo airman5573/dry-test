@@ -13,9 +13,14 @@ jobs:
   publish-npm:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
       - uses: pnpm/action-setup@v2
         with:
-          version: 8.2.0
+          version: 8
+          run_install: |
+            - recursive: true
+              args: [--frozen-lockfile, --strict-peer-dependencies]
+            - args: [--global, eslint, prettier, typescript]
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
