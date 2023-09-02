@@ -7,6 +7,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
