@@ -7,10 +7,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "types": "./dist/index.d.ts",
+  "types": "./types",
   "files": [
     "dist",
-    "src"
+    "types"
   ],
   "scripts": {
     "dev": "vite",
