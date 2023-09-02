@@ -1,0 +1,11 @@
+{
+  "extends": "@dry/configs-ts-react",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "rootDir": "src",
+    "paths": {
+      "@components/*": ["components/*"]
+    }
+  },
+  "include": ["src"]
+}
