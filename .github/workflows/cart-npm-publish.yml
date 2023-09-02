@@ -21,13 +21,13 @@ jobs:
             - recursive: true
               args: [--frozen-lockfile, --strict-peer-dependencies]
             - args: [--global, eslint, prettier, typescript]
-      - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
 
       - name: Dependency install
+        run: pnpm store prune
         run: pnpm install
 
       - name: Compile
