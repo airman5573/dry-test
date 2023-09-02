@@ -1,15 +1,16 @@
 {
   "name": "@woodry/payment",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "type": "module",
   "main": "./dist/payment.umd.js",
   "module": "./dist/payment.es.js",
   "publishConfig": {
     "access": "public"
   },
-  "types": "./dist/index.d.ts",
+  "types": "./types",
   "files": [
-    "dist"
+    "dist",
+    "types"
   ],
   "scripts": {
     "dev": "vite",
@@ -30,6 +31,7 @@
     "@storybook/addon-essentials": "^7.0.4",
     "@storybook/addon-interactions": "^7.0.4",
     "@storybook/addon-links": "^7.0.4",
+    "@storybook/addon-mdx-gfm": "^7.0.4",
     "@storybook/blocks": "^7.0.4",
     "@storybook/react": "^7.0.4",
     "@storybook/react-vite": "^7.0.4",
@@ -50,5 +52,12 @@
     "vite": "^4.2.1",
     "vite-plugin-dts": "^2.2.0",
     "vite-tsconfig-paths": "^4.2.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-regular-svg-icons": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "framer-motion": "^10.12.2"
   }
 }
