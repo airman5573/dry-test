@@ -7,7 +7,7 @@ on:
 
 defaults:
   run:
-    working-directory: packages/cart
+    working-directory: packages/payment
 
 jobs:
   publish-npm:
