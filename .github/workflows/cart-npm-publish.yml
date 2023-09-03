@@ -26,7 +26,6 @@ jobs:
 
       - name: Prune and Install Dependencies
         run: |
-          pnpm store prune
           pnpm install --frozen-lockfile --strict-peer-dependencies
 
       - name: Compile
