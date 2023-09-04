@@ -2,24 +2,17 @@
   "name": "@woodry/cart",
   "version": "0.3.0",
   "type": "module",
-  "main": "./src/index.ts",
-  "module": "./dist/cart.es.js",
   "sideEffects": false,
   "publishConfig": {
     "access": "public"
   },
-  "types": "./types",
+  "main": "dist/index.js",
+  "module": "dist/cart.es.js",
+  "typings": "dist/index.d.ts",
   "files": [
     "dist",
     "src"
   ],
-  "exports": {
-    ".": {
-      "import": "./dist/cart.es.js",
-      "types": "./dist/index.d.ts"
-    },
-    "./package.json": "./package.json"
-  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

@@ -1,9 +1,0 @@
-export { default as Button } from './Button/Button';
-export { default as Chip } from './Chip/Chip';
-import { default as FlexBox } from './FlexBox/FlexBox';
-export { default as Icon } from './Icon/Icon';
-export { default as IconButton } from './IconButton/IconButton';
-export { default as LoadingSpinner } from './LoadingSpinner/LoadingSpinner';
-export { default as Stepper } from './Stepper/Stepper';
-export { default as Text } from './Text/Text';
-export { default as Thumbnail } from './Thumbnail/Thumbnail';
