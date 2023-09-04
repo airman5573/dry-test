@@ -6,7 +6,15 @@
     "paths": {
       "@components/*": ["components/*"],
       "@assets/*": ["assets/*"]
-    }
+    },
+    "declarationDir": "types"
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "src/**/*.test.tsx",
+    "src/**/*.stories.tsx",
+    "**/*.stories.tsx"
+  ]
 }

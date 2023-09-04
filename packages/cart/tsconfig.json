@@ -10,5 +10,11 @@
     "declarationDir": "types"
   },
   "include": ["src"],
-  "exclude": ["dist", "node_modules", "src/**/*.test.tsx", "src/**/*.stories.tsx"]
+  "exclude": [
+    "dist",
+    "node_modules",
+    "src/**/*.test.tsx",
+    "src/**/*.stories.tsx",
+    "**/*.stories.tsx"
+  ]
 }
