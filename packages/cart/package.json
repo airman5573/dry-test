@@ -10,7 +10,8 @@
   "types": "./types",
   "files": [
     "dist",
-    "types"
+    "types",
+    "src"
   ],
   "scripts": {
     "dev": "vite",
