@@ -18,19 +18,19 @@ export default defineConfig(() => ({
     lib: {
       entry: path.resolve(__dirname, 'src/index.tsx'),
       name: 'payment',
-      formats: ['es', 'umd'],
-      fileName: (format) => `payment.${format}.js`,
+      formats: ['es'],
+      fileName: format => `payment.${format}.js`
     },
     esbuild: {
-      minify: true
+      minify: false
     },
     rollupOptions: {
       output: {
         globals: {
           react: 'React',
-          'react-dom': 'ReactDOM',
-        },
-      },
-    },
+          'react-dom': 'ReactDOM'
+        }
+      }
+    }
   }
 }));
