@@ -4,15 +4,22 @@
   "type": "module",
   "main": "./dist/cart.umd.js",
   "module": "./dist/cart.es.js",
+  "sideEffects": false,
   "publishConfig": {
     "access": "public"
   },
   "types": "./types",
   "files": [
     "dist",
-    "types",
-    "src"
+    "src/components"
   ],
+  "exports": {
+    ".": {
+      "import": "./cart.es.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
