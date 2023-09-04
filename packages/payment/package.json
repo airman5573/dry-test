@@ -1,16 +1,17 @@
 {
   "name": "@woodry/payment",
-  "version": "0.2.5",
+  "version": "0.0.1",
   "type": "module",
-  "main": "./dist/payment.umd.js",
-  "module": "./dist/payment.es.js",
+  "sideEffects": false,
   "publishConfig": {
     "access": "public"
   },
-  "types": "./types",
+  "main": "dist/index.js",
+  "module": "dist/cart.es.js",
+  "typings": "dist/index.d.ts",
   "files": [
     "dist",
-    "types"
+    "src"
   ],
   "scripts": {
     "dev": "vite",
