@@ -1,8 +1,8 @@
 {
   "name": "@woodry/cart",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "type": "module",
-  "main": "./dist/cart.umd.js",
+  "main": "./src/index.ts",
   "module": "./dist/cart.es.js",
   "sideEffects": false,
   "publishConfig": {
@@ -11,7 +11,7 @@
   "types": "./types",
   "files": [
     "dist",
-    "src/components"
+    "src"
   ],
   "exports": {
     ".": {
