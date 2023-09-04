@@ -7,8 +7,7 @@
       "@components/*": ["components/*"],
       "@assets/*": ["assets/*"]
     },
-    "declarationDir": "types",
-    "jsx": "react"
+    "declarationDir": "types"
   },
   "include": ["src"],
   "exclude": ["dist", "node_modules", "src/**/*.test.tsx", "src/**/*.stories.tsx"]

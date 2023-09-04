@@ -269,29 +269,29 @@ importers:
         specifier: workspace:^
         version: link:../configs/ts-react
       '@storybook/addon-essentials':
-        specifier: ^7.0.4
+        specifier: ^7.4.0
         version: 7.4.0(@types/react-dom@18.2.7)(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/addon-interactions':
-        specifier: ^7.0.4
+        specifier: ^7.4.0
         version: 7.4.0(@types/react-dom@18.2.7)(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/addon-links':
-        specifier: ^7.0.4
+        specifier: ^7.4.0
         version: 7.4.0(react-dom@18.2.0)(react@18.2.0)
       '@storybook/addon-mdx-gfm':
-        specifier: ^7.0.4
+        specifier: ^7.4.0
         version: 7.4.0
       '@storybook/blocks':
-        specifier: ^7.0.4
+        specifier: ^7.4.0
         version: 7.4.0(@types/react-dom@18.2.7)(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/react':
-        specifier: ^7.0.4
+        specifier: ^7.4.0
         version: 7.4.0(react-dom@18.2.0)(react@18.2.0)(typescript@4.9.4)
       '@storybook/react-vite':
-        specifier: ^7.0.4
+        specifier: ^7.4.0
         version: 7.4.0(react-dom@18.2.0)(react@18.2.0)(rollup@3.28.1)(typescript@4.9.4)(vite@4.4.9)
       '@storybook/testing-library':
-        specifier: ^0.1.0
-        version: 0.1.0
+        specifier: ^0.2.0
+        version: 0.2.0
       '@types/react':
         specifier: ^18.0.28
         version: 18.2.21
@@ -323,7 +323,7 @@ importers:
         specifier: ^2.2.4
         version: 2.2.4(rollup@3.28.1)
       storybook:
-        specifier: ^7.0.4
+        specifier: ^7.4.0
         version: 7.4.0
       styled-components:
         specifier: ^5.3.9
@@ -3828,16 +3828,6 @@ packages:
       - supports-color
     dev: true
 
-  /@storybook/testing-library@0.1.0:
-    resolution: {integrity: sha512-g947f4LJZw3IluBhysMKLJXByAFiSxnGuooENqU+ZPt/GTrz1I9GDBlhmoTJahuFkVbwHvziAl/8riY2Re921g==}
-    dependencies:
-      '@storybook/client-logger': 7.4.0
-      '@storybook/instrumenter': 7.4.0
-      '@testing-library/dom': 8.20.1
-      '@testing-library/user-event': 13.5.0(@testing-library/dom@8.20.1)
-      ts-dedent: 2.2.0
-    dev: true
-
   /@storybook/testing-library@0.2.0:
     resolution: {integrity: sha512-Ff6jNnrsosmDshgCf0Eb5Cz7IA34p/1Ps5N3Kp3598kfXpBSccSkQQvVFUXC3kIHw/isIXWPqntZuKqnWUz7Gw==}
     dependencies:
@@ -3988,20 +3978,6 @@ packages:
     resolution: {integrity: sha512-z/G02d+59gyyUb7KYhKi9jOhicek6QD2oMaotUyG+lUkybpXoV49dY9bj7Ah5Q+y7knK2jU67UTX9FyfGzaxQg==}
     dev: true
 
-  /@testing-library/dom@8.20.1:
-    resolution: {integrity: sha512-/DiOQ5xBxgdYRC8LNk7U+RWat0S3qRLeIw3ZIkMQ9kkVlRmwD/Eg8k8CqIpD6GW7u20JIUOfMKbxtiLutpjQ4g==}
-    engines: {node: '>=12'}
-    dependencies:
-      '@babel/code-frame': 7.22.13
-      '@babel/runtime': 7.22.11
-      '@types/aria-query': 5.0.1
-      aria-query: 5.1.3
-      chalk: 4.1.2
-      dom-accessibility-api: 0.5.16
-      lz-string: 1.5.0
-      pretty-format: 27.5.1
-    dev: true
-
   /@testing-library/dom@9.3.1:
     resolution: {integrity: sha512-0DGPd9AR3+iDTjGoMpxIkAsUihHZ3Ai6CneU6bRRrffXMgzCdlNk43jTrD2/5LT6CBb3MWTP8v510JzYtahD2w==}
     engines: {node: '>=14'}
@@ -4014,16 +3990,6 @@ packages:
       dom-accessibility-api: 0.5.16
       lz-string: 1.5.0
       pretty-format: 27.5.1
-    dev: true
-
-  /@testing-library/user-event@13.5.0(@testing-library/dom@8.20.1):
-    resolution: {integrity: sha512-5Kwtbo3Y/NowpkbRuSepbyMFkZmHgD+vPzYB/RJ4oxt5Gj/avFFBYjhw27cqSVPVw/3a67NK1PbiIr9k4Gwmdg==}
-    engines: {node: '>=10', npm: '>=6'}
-    peerDependencies:
-      '@testing-library/dom': '>=7.21.4'
-    dependencies:
-      '@babel/runtime': 7.22.11
-      '@testing-library/dom': 8.20.1
     dev: true
 
   /@testing-library/user-event@14.4.3(@testing-library/dom@9.3.1):
