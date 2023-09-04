@@ -1,6 +1,6 @@
 {
   "name": "@woodry/payment",
-  "version": "0.2.3",
+  "version": "0.2.5",
   "type": "module",
   "main": "./dist/payment.umd.js",
   "module": "./dist/payment.es.js",
