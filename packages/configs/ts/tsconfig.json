@@ -14,8 +14,8 @@
     "skipLibCheck": true,
     "incremental": true,
     "declaration": true,
-    "declarationDir": "types",
+    "declarationDir": "dist",
     "emitDeclarationOnly": true,
-    "allowSyntheticDefaultImports": true,
+    "allowSyntheticDefaultImports": true
   }
 }

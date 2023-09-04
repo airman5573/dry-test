@@ -1,11 +1,9 @@
-/** @tossdocs-ignore */
-export * from './Button/Button';
-export * from './Checkbox/Checkbox';
-export * from './Chip/Chip';
-export * from './FlexBox/FlexBox';
-export * from './Icon/Icon';
-export * from './IconButton/IconButton';
-export * from './LoadingSpinner/LoadingSpinner';
-export * from './Stepper/Stepper';
-export * from './Text/Text';
-export * from './Thumbnail/Thumbnail';
+export { default as Button } from './Button/Button';
+export { default as Chip } from './Chip/Chip';
+import { default as FlexBox } from './FlexBox/FlexBox';
+export { default as Icon } from './Icon/Icon';
+export { default as IconButton } from './IconButton/IconButton';
+export { default as LoadingSpinner } from './LoadingSpinner/LoadingSpinner';
+export { default as Stepper } from './Stepper/Stepper';
+export { default as Text } from './Text/Text';
+export { default as Thumbnail } from './Thumbnail/Thumbnail';

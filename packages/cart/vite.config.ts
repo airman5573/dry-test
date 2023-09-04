@@ -16,21 +16,21 @@ export default defineConfig(() => ({
   ],
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'src/index.tsx'),
+      entry: path.resolve(__dirname, 'src/index.ts'),
       name: 'cart',
-      formats: ['es', 'umd'],
-      fileName: (format) => `cart.${format}.js`,
+      formats: ['es'],
+      fileName: format => `cart.${format}.js`
     },
     esbuild: {
-      minify: true
+      minify: false
     },
     rollupOptions: {
       output: {
         globals: {
           react: 'React',
-          'react-dom': 'ReactDOM',
-        },
-      },
-    },
+          'react-dom': 'ReactDOM'
+        }
+      }
+    }
   }
 }));

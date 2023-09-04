@@ -1,6 +1,6 @@
 {
   "name": "@woodry/cart",
-  "version": "0.2.8",
+  "version": "0.2.9",
   "type": "module",
   "main": "./src/index.ts",
   "module": "./dist/cart.es.js",
@@ -15,7 +15,7 @@
   ],
   "exports": {
     ".": {
-      "import": "./cart.es.js",
+      "import": "./dist/cart.es.js",
       "types": "./dist/index.d.ts"
     },
     "./package.json": "./package.json"
@@ -57,7 +57,7 @@
     "storybook": "^7.4.0",
     "styled-components": "^5.3.9",
     "typescript": "4.9.4",
-    "vite": "^4.2.1",
+    "vite": "4.4.9",
     "vite-plugin-dts": "^2.2.0",
     "vite-tsconfig-paths": "^4.2.0"
   },
