@@ -1,13 +1,13 @@
 {
   "name": "@woodry/payment",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "type": "module",
   "sideEffects": false,
   "publishConfig": {
     "access": "public"
   },
   "main": "dist/index.js",
-  "module": "dist/cart.es.js",
+  "module": "dist/payment.es.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
